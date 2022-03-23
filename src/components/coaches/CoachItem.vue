@@ -17,6 +17,7 @@
 <script>
 import BaseButton from "@/components/UI/BaseButton";
 import BaseBadge from "@/components/UI/BaseBadge";
+
 export default {
   components: { BaseBadge, BaseButton },
   props: ["id", "firstName", "lastName", "rate", "areas"],
